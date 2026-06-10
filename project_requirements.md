@@ -188,6 +188,127 @@ We are expecting a detailed report explaining your approach about the project, a
 
 ✅ Python Notebook (Jupyter)  
 ✅ Streamlit Deployment  
-✅ Detailed Report  
+✅ Detailed Report
+
+---
+
+## Software Development Methodology
+
+### 🎯 Chosen Methodology: **V-Shape Model**
+
+The **V-Shape Model** is the optimal choice for this Tesla Stock Price Prediction project due to:
+
+#### Why V-Shape Model?
+
+| Criteria | V-Shape Fit |
+|----------|-----------|
+| **Sequential Phases** | ✅ Data science projects require sequential phases (prep → modeling → testing) |
+| **Well-Defined Requirements** | ✅ Clear specifications for SimpleRNN & LSTM models with specific prediction targets |
+| **Testing Strategy Upfront** | ✅ Test plans (model comparison metrics) defined during design phase |
+| **Model Validation** | ✅ Validation phase ensures rigorous testing of both models before deployment |
+| **Time-Bounded Project** | ✅ Fixed deadline (Jan 12, 2026) aligns with structured phases |
+| **Clear Deliverables** | ✅ Each phase produces concrete outputs (data, models, metrics, reports) |
+| **Emphasis on Quality** | ✅ Each development phase has a corresponding testing/validation phase |
+
+#### V-Shape Project Structure
+
+```
+                    VERIFICATION → VALIDATION
+                   (Testing Strategy Design)
+                         ↓
+    ┌─────────────────────────────────────────┐
+    │  VERIFICATION PHASE (Left Side - V)     │  VALIDATION PHASE (Right Side - V)
+    │  Planning & Design                      │  Testing & Acceptance
+    └─────────────────────────────────────────┘
+    
+    1. Planning & Requirements Analysis       8. Acceptance Testing
+           ↓                                       ↑
+    2. System Design                          7. System Testing
+           ↓                                       ↑
+    3. Architecture Design                    6. Integration Testing
+           ↓                                       ↑
+    4. Module Design                          5. Unit Testing
+           ↓                                       ↑
+           └─→ 5. IMPLEMENTATION (Coding) ←─┘
+              (Bottom of V - Development)
+```
+
+#### V-Shape Phases Applied to Tesla Stock Prediction
+
+**Phase 1: Planning & Requirements Analysis**
+- Define project scope, timeline, and success criteria
+- Document all model requirements and data specifications
+
+**Phase 2: System Design**
+- Design data pipeline architecture
+- Define train/test split strategy
+- Plan model evaluation framework
+
+**Phase 3: Architecture Design**
+- Design SimpleRNN and LSTM model architectures
+- Plan hyperparameter search space (GridSearchCV)
+- Document feature engineering approach
+
+**Phase 4: Module Design**
+- Detailed design of data preprocessing module
+- Detailed design of model training module
+- Detailed design of evaluation and visualization module
+
+**Phase 5: Implementation (Coding)**
+- Develop data cleaning and preprocessing scripts
+- Implement SimpleRNN and LSTM models
+- Develop evaluation and comparison functions
+- Build Streamlit deployment application
+
+**Phase 6: Unit Testing**
+- Test individual model components
+- Validate data preprocessing output
+- Verify loss functions and metrics calculations
+
+**Phase 7: Integration Testing**
+- Test SimpleRNN and LSTM models together
+- Validate data pipeline end-to-end
+- Verify model output formats and shapes
+
+**Phase 8: System Testing**
+- Compare SimpleRNN vs LSTM performance
+- Validate predictions on test set (1-day, 5-day, 10-day)
+- Test Streamlit application functionality
+
+**Phase 9: Acceptance Testing**
+- Validate against business requirements
+- Verify all evaluation metrics (MSE, RMSE, MAE)
+- Final review and sign-off
+
+**Phase 10: Deployment & Maintenance**
+- Deploy Streamlit application
+- Generate final report and documentation
+- Establish monitoring and update procedures
+
+#### Key Benefits for This Project
+
+✅ **Design-Driven Testing**: Test strategies created during design phase  
+✅ **Model Comparison Framework**: Structured approach to comparing SimpleRNN vs LSTM  
+✅ **Risk Mitigation**: Issues caught early in validation phase  
+✅ **Clear Traceability**: Each requirement traced through development and testing  
+✅ **Quality Assurance**: Rigorous testing at each level (unit → integration → system)  
+
+---
+
+## Documentation Structure by Phase
+
+Documentation follows the V-Shape model phases with the following categories:
+
+### Product Documentation
+- **Requirements Documentation**: Project specifications and model requirements
+- **Design Documentation**: System architecture and model design
+- **Technical Documentation**: Code implementation and API documentation
+- **Quality Assurance Documentation**: Test plans, test cases, and performance metrics
+- **User Documentation**: Installation guides, usage tutorials, and troubleshooting
+
+### Process Documentation
+- **Standard Operating Procedures (SOPs)**: Step-by-step tasks for each phase
+- **Phase Deliverables**: Outputs from each V-Shape phase
+- **Maintenance Procedures**: Update and monitoring guidelines  
 
 
