@@ -98,8 +98,8 @@
 ### 7. Constraints & Assumptions
 
 **Constraints:**
-- Submission deadline: January 12, 2026
-- No external APIs for real-time data (use historical dataset)
+- Submission: Production ready software ready for use.
+- External APIs for real-time data (use historical dataset for fallback)
 - Python 3.8 or higher
 
 **Assumptions:**
